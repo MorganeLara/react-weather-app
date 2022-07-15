@@ -1,4 +1,17 @@
 .Weather {
   background-color: white;
-  box-shadow: 10px 5px 5px rgba(82, 94, 255, 0.091);
+  box-shadow: 10px 5px 5px rgba(82, 94, 255, 0.077);
+}
+
+.Header {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.Body {
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
 }
