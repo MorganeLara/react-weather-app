@@ -38,9 +38,9 @@ export default function Weather() {
           </div>
           <div className="col-6">
             <ul>
-              <li>🌡 Min/Max: 15°/19°</li>
-              <li>☁️ Humidity: 69%</li>
-              <li>🍃 Wind: 2 km/h</li>
+              <li>Min/Max: 15°/19°</li>
+              <li>Humidity: 69%</li>
+              <li>Wind: 2 km/h</li>
             </ul>
           </div>
         </div>
