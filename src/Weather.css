@@ -1,17 +1,60 @@
 .Weather {
   background-color: white;
-  box-shadow: 10px 5px 5px rgba(82, 94, 255, 0.077);
+  box-shadow: 0px 0px 10px rgba(82, 94, 255, 0.12);
 }
 
-.Header {
+.Weather form {
   background-color: aliceblue;
   padding: 20px;
 }
 
-.Body {
+.Weather .Body {
   padding: 20px;
 }
 
-ul {
+.Weather ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Weather hr {
+  margin: 0px;
+  color: grey;
+}
+
+.Weather li {
   list-style: none;
+  color: grey;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.Weather img {
+  height: 64px;
+  display: inline-block;
+}
+
+.Weather .temp-value {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 54px;
+  text-align: left;
+  line-height: 64px;
+  position: relative;
+  line-height: 1;
+  top: 8px;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -20px;
+  left: 5px;
+}
+
+.Weather .Main-info {
+  padding-bottom: 20px;
 }

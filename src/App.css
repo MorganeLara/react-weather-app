@@ -1,0 +1,10 @@
+.App {
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.App .credits {
+  margin: 20px;
+  font-size: 10px;
+  text-align: center;
+}

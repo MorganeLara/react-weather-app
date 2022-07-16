@@ -4,22 +4,22 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <div className="Header">
-        <form>
-          <div className="row">
-            <div className="col-9">
-              <input
-                type="search"
-                placeholder="Enter a city..."
-                className="form-control"
-              />
-            </div>
-            <div className="col-3">
-              <input type="submit" value="🔎" className="btn btn-primary" />
-            </div>
+      <form>
+        <div className="row">
+          <div className="col-9">
+            <input
+              type="search"
+              placeholder="Enter a city..."
+              className="form-control"
+            />
           </div>
-        </form>
-      </div>
+          <div className="col-3">
+            <input type="submit" value="search" className="btn btn-primary" />
+          </div>
+        </div>
+      </form>
+
+      <hr />
       <div className="Body">
         <div className="Main-info">
           <h2 className="City">Brussels</h2>
@@ -30,17 +30,28 @@ export default function Weather() {
         </div>
         <div className="row">
           <div className="col-6">
-            <img
-              src="http://openweathermap.org/img/wn/02d@2x.png"
-              alt="Few Clouds"
-            />
-            17°C
+            <div className="clearfix">
+              <div className="float-left">
+                <img
+                  src="http://openweathermap.org/img/wn/02d@2x.png"
+                  alt="Few Clouds"
+                />
+                <span className="temp-value">17</span>
+                <span className="unit">°C</span>
+              </div>
+            </div>
           </div>
           <div className="col-6">
             <ul>
-              <li>Min/Max: 15°/19°</li>
-              <li>Humidity: 69%</li>
-              <li>Wind: 2 km/h</li>
+              <li>
+                <span role="img">🌡</span> Min/Max: 15°/19°
+              </li>
+              <li>
+                <span role="img">☔️</span> Humidity: 69%
+              </li>
+              <li>
+                <span role="img">🍃</span> Wind: 2km/h
+              </li>
             </ul>
           </div>
         </div>

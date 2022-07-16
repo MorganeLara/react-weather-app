@@ -7,6 +7,16 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather />
+        <div className="credits">
+          <a
+            href="https://github.com/MorganeLara/react-weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by Morgane Lara 🇫🇷
+        </div>
       </div>
     </div>
   );
