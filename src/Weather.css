@@ -8,6 +8,9 @@
   padding: 20px;
 }
 
+.Weather h3 {
+  font-family: poppins;
+}
 .Weather .Body {
   padding: 20px;
 }
@@ -43,6 +46,7 @@
   position: relative;
   line-height: 1;
   top: 8px;
+  font-family: poppins;
 }
 
 .Weather .unit {
@@ -53,6 +57,7 @@
   line-height: 1;
   top: -20px;
   left: 5px;
+  font-family: poppins;
 }
 
 .Weather .Main-info {
