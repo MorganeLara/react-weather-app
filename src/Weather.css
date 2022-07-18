@@ -43,9 +43,6 @@
   color: rgb(0, 0, 0);
   font-size: 54px;
   text-align: left;
-  position: relative;
-  top: -5px;
-  line-height: 1;
   font-family: poppins;
 }
 
@@ -55,11 +52,21 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -33px;
+  top: -30px;
   left: 5px;
   font-family: poppins;
 }
 
 .Weather .Main-info {
   padding-bottom: 20px;
+}
+
+.Weather a {
+  text-decoration: none;
+}
+
+.Weather .WeatherTemperature {
+  display: inline-block;
+  position: relative;
+  top: -5px;
 }
