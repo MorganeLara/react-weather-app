@@ -32,9 +32,10 @@
   line-height: 20px;
 }
 
-.Weather img {
-  height: 64px;
+.Weather canvas {
+  height: 54px;
   display: inline-block;
+  margin-right: 20px;
 }
 
 .Weather .temp-value {
@@ -42,10 +43,9 @@
   color: rgb(0, 0, 0);
   font-size: 54px;
   text-align: left;
-  line-height: 64px;
   position: relative;
+  top: -5px;
   line-height: 1;
-  top: 8px;
   font-family: poppins;
 }
 
@@ -55,7 +55,7 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -20px;
+  top: -33px;
   left: 5px;
   font-family: poppins;
 }
