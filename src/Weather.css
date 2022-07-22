@@ -33,9 +33,7 @@
 }
 
 .Weather canvas {
-  height: 54px;
   display: inline-block;
-  margin-right: 20px;
 }
 
 .Weather .temp-value {
@@ -69,4 +67,5 @@
   display: inline-block;
   position: relative;
   top: -5px;
+  left: 15px;
 }
