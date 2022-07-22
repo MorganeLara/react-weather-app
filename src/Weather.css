@@ -9,7 +9,9 @@
 }
 
 .Weather h3 {
-  font-family: poppins;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
 }
 .Weather .Body {
   padding: 20px;
@@ -37,11 +39,12 @@
 }
 
 .Weather .temp-value {
-  font-weight: 500;
+  font-weight: 700;
   color: rgb(0, 0, 0);
   font-size: 54px;
   text-align: left;
-  font-family: poppins;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .Weather .unit {
@@ -52,7 +55,8 @@
   line-height: 1;
   top: -30px;
   left: 5px;
-  font-family: poppins;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .Weather .Main-info {
